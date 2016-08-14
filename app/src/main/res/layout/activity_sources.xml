@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.volks.nanoquiz.Sources">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/question_color"
+            android:textSize="@dimen/question_size"
+            android:layout_margin="@dimen/fab_margin"
+            android:id="@+id/history_View"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_height="wrap_content"
+            android:textColor="@color/question_color"
+            android:textSize="@dimen/question_size"
+            android:id="@+id/ship_view"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:textColor="@color/question_color"
+            android:textSize="@dimen/question_size"
+            android:id="@+id/game_info_view"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:textColor="@color/question_color"
+            android:textSize="@dimen/question_size"
+            android:id="@+id/disclaimer"/>
+    </LinearLayout>
+</ScrollView>
+

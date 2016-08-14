@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">StarCitizen Nano Quiz</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="uec_history_quiz" translatable="true">Star Citizen Quiz</string>
+    <string name="title_activity_uec_history_quiz">UecHistoryQuiz</string>
+
+    <string name="history_source_url">http://citizen-history.com/#0</string>
+    <string name="ship_source_url">https://robertsspaceindustries.com/pledge/ships</string>
+    <string name="game_info_url">https://robertsspaceindustries.com/</string>
+    <string name="sources">Sources And Disclaimer</string>
+
+    <string name="history_source">The Historical Information on Star Citizen Was taken from  </string>
+    <string name="visit_history">Please Visit the Website For Additional Information.</string>
+    <string name="ship_sources">Ship Information was taken from </string>
+    <string name="visit_ships">Please visit the website for More information</string>
+    <string name="game_info">For additional information on Star Citizen Please visit </string>
+    <string name="discplaimer">All information and images are used for educational purposes. The information sources are listed above.</string>
+
+    <string-array name="question_One">
+        <item>What Year was Quantum Core Engine Patented?</item>
+        <item>2017</item>
+        <item>2075</item>
+        <item>2083</item>
+        <item>2088</item>
+    </string-array>
+
+    <string-array name="question_Two">
+        <item>What Major Event Happened in the Year 2232?</item>
+        <item>Mars Terraformed</item>
+        <item>First Jump Point Discovered</item>
+        <item>First Colonial Flight</item>
+        <item>Nul System Discovered</item>
+    </string-array>
+
+    <string-array name="question_Three">
+        <item>Which of the Following Ships is Designed for Exploration?</item>
+        <item>Freelancer DUR</item>
+        <item>F7C Hornet Ghost</item>
+        <item>Carrack</item>
+        <item>Starfarer Gemini</item>
+    </string-array>
+
+    <string-array name="correct_answers">
+        <item>In the Year 2075 Roberts Space Industries introduces Quantum Core Engine Technology.
+                This new engine allows humanity to travel to the corners of our solar
+                system with relative ease.\n\n</item>
+        <item>In the Year 2232 Artemis Launched. First attempt to have a manned spacecraft fly (slow-burn)
+                to the nearest star system. Captain, crew and thousands of volunteer colonists
+                are placed in stasis for the flight. Ultimately the ship disappears.\n\n</item>
+        <item>Freelancer DUR and Carrack class ships are designed with Exploration In Mind.\n\n</item>
+    </string-array>
+
+    <string name="question_four">What Career Are you Planning on Taking?</string>
+    <string name="gradeMe">Grade Answers</string>
+    <string name="seeAnswers">See Answers</string>
+    <string name="emailMe">Email Answers</string>
+
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+
+    <string name="reminder">Please Do not Forget Free Form Answer</string>
+    <string name="warning">Please Answer All the questions</string>
+</resources>

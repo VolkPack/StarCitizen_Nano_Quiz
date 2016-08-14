@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="history_quiz_button_text">@android:color/white</color>
+    <color name="background">@android:color/darker_gray</color>
+    <color name="button_bg">@android:color/holo_blue_dark</color>
+    <color name="question_color">@android:color/black</color>
+    <color name="incorrect">@android:color/holo_red_dark</color>
+    <color name="correct">@android:color/holo_green_dark</color>
+</resources>
