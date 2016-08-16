@@ -122,8 +122,10 @@ public class UecHistoryQuiz extends AppCompatActivity {
         RadioButton answer1 = (RadioButton) findViewById(R.id.q1a2);
         RadioButton answer2 = (RadioButton) findViewById(R.id.q2a3);
 
-        CheckBox answer3 = (CheckBox) findViewById(R.id.q3a1);
-        CheckBox answer4 = (CheckBox) findViewById(R.id.q3a3);
+        CheckBox correctanswer1 = (CheckBox) findViewById(R.id.q3a1);
+        CheckBox correctanswer2 = (CheckBox) findViewById(R.id.q3a3);
+        CheckBox wronganswer1 = (CheckBox) findViewById(R.id.q3a2);
+        CheckBox wronganswer2 = (CheckBox) findViewById(R.id.q3a4);
 
         EditText userInput = (EditText) findViewById(R.id.free_answer);
 
@@ -161,7 +163,7 @@ public class UecHistoryQuiz extends AppCompatActivity {
 
             //Checks if the The third answer is Correct and contains both answers
             //If True Changes Color to Green and Text To Correct
-            if (answer3.isChecked() && answer4.isChecked()) {
+            if (correctanswer1.isChecked() && correctanswer2.isChecked() && !wronganswer1.isChecked() && !wronganswer2.isChecked()) {
                 result3.setText(R.string.correct);
                 result3.setTextColor(getResources().getColor(R.color.correct));
             }
