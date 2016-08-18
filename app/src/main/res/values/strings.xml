@@ -41,6 +41,14 @@
         <item>Starfarer Gemini</item>
     </string-array>
 
+    <string-array name="question_four">
+        <item>Exploration</item>
+        <item>Agriculture</item>
+        <item>Deep Space Research</item>
+        <item>Medical</item>
+        <item>Planetary Research</item>
+    </string-array>
+
     <string-array name="correct_answers">
         <item>In the Year 2075 Roberts Space Industries introduces Quantum Core Engine Technology.
                 This new engine allows humanity to travel to the corners of our solar
@@ -49,9 +57,10 @@
                 to the nearest star system. Captain, crew and thousands of volunteer colonists
                 are placed in stasis for the flight. Ultimately the ship disappears.\n\n</item>
         <item>Freelancer DUR and Carrack class ships are designed with Exploration In Mind.\n\n</item>
+        <item>Endeavor Can Be Used for Exploration, Agriculture, Deep Space Exploration, Medical Assistance, Planetary Research.\n\n</item>
     </string-array>
 
-    <string name="question_four">What Career Are you Planning on Taking?</string>
+    <string name="question_four">List possible usages for Endeavor Class Ship.</string>
     <string name="gradeMe">Grade Answers</string>
     <string name="seeAnswers">See Answers</string>
     <string name="emailMe">Email Answers</string>

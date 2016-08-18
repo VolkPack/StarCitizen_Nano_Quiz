@@ -132,6 +132,7 @@ public class UecHistoryQuiz extends AppCompatActivity {
         TextView result1 = (TextView) findViewById(R.id.q1Result);
         TextView result2 = (TextView) findViewById(R.id.q2Result);
         TextView result3 = (TextView) findViewById(R.id.q3Result);
+        TextView result4 = (TextView) findViewById(R.id.q4Result);
 
         CheckBox userCheck;
         StringBuilder checkTemp = new StringBuilder();
@@ -143,9 +144,12 @@ public class UecHistoryQuiz extends AppCompatActivity {
             result1.setText(R.string.incorrect);
             result2.setText(R.string.incorrect);
             result3.setText(R.string.incorrect);
+            result4.setText(R.string.incorrect);
             result1.setTextColor(getResources().getColor(R.color.incorrect));
             result2.setTextColor(getResources().getColor(R.color.incorrect));
             result3.setTextColor(getResources().getColor(R.color.incorrect));
+            result4.setTextColor(getResources().getColor(R.color.incorrect));
+
 
             //Checks if the The First answer is Correct and if True
             //Changes Color to Green and Text To Correct
@@ -199,6 +203,20 @@ public class UecHistoryQuiz extends AppCompatActivity {
                 checkTemp.append(" " + userCheck.getText().toString());
             }
             userAnswers[2] = checkTemp.toString();
+
+            String[] freeAnswerOptionsList = getResources().getStringArray(R.array.question_four);
+            if(userInput.getText().toString() != null)
+            {
+                for(int i=0; i < freeAnswerOptionsList.length; i++)
+                {
+                    if(userInput.getText().toString().contains(freeAnswerOptionsList[i]))
+                    {
+                        result4.setText(R.string.correct);
+                        result4.setTextColor(getResources().getColor(R.color.correct));
+                    }
+                }
+            }
+
 
             //Checks if The User Free Answer is Null if Not Adds it to User Answers Array
             if (userInput.getText().toString() != null)

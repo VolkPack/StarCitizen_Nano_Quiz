@@ -122,7 +122,7 @@
             android:id="@+id/question4"
             android:textColor="@color/question_color"
             android:textSize="@dimen/question_size"
-            android:textStyle="bold"/>/>
+            android:textStyle="bold"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -131,6 +131,11 @@
             android:overScrollMode="always"
             android:backgroundTint="@color/background"
             android:lines="5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4Result"
+            android:textSize="@dimen/grade_size"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
